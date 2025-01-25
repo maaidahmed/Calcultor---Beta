@@ -1,6 +1,6 @@
 //Calculator
 
-const display = document.getElementById("dsiplay");
+const display = document.getElementById("display");
 
 function appendToDisplay(input){
     display.value += input;
@@ -10,7 +10,7 @@ function clearDisplay(){
     display.value = "";
 }
 
-function calculator(){
+function calculate(){
     display.value = eval(display.value)
 }
 
